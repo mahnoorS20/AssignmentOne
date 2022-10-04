@@ -1,0 +1,68 @@
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Form</title> 
+<link rel="stylesheet" href="style.css" type="text/css" media="only screen and (min-width:960px)">
+        <!-- tablet style sheet-->
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+        <!-- phone style sheet-->
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head> 
+<body> 
+<div id="wrapper"> 
+<h1>Your feedback is important to us.</h1> 
+<form action="mailto:email@email.com" ?subject=Signup Form method="post" enctype="text/plain" name="form"> 
+    <div id="box" >
+    <p>
+        <label for="name">Name:</label> 
+        <input type="text" name="name" placeholder="Enter your name" 
+        size="48">
+    </p>
+    <p> 
+        <label for="email">Email</label> 
+        <input name="email" type="email" size="40"> 
+    </p>
+    <p>
+        <label for="continents">Which continent do you live in?</label> 
+        <input list="continents"> 
+        <datalist id="continents"> 
+            <option value="Asia"> 
+            <option value="Africa"> 
+            <option value="North America"> 
+            <option value="South America"> 
+            <option value="Antarctica"> 
+            <option value="Europe"> 
+            <option value="Australia"> 
+        </datalist>
+    <p> 
+        <input type="checkbox" name="maillist"> 
+        <label for ="maillist">Put me on your e-list!</label> 
+    </p> 
+    <p> 
+        <label for= "where">How did you find us?</label> 
+        <select name="where"> 
+        <option value="Search engine">Search engine</option> 
+        <option value="Word of mouth">LinkedIn</option> 
+        <option value="Craigslist">Instagram</option>
+        <option value="Craigslist">SnapChat</option>
+        <option value="Craigslist">Friend</option>
+        <option value="Other">Other</option> 
+        </select> 
+    </p> 
+    <p> 
+        <label for="comments">Comments?</label><br> 
+        <textarea name="comments" cols="60" rows="6"></textarea> 
+    </p> 
+    <p>
+        <input type="submit" value="Click here to submit the form"/>
+    </p> 
+    <p>
+        <input type="reset" value="Click here to reset the form"/>
+    </p> 
+    
+</form> 
+</div> 
+</div> 
+</body> 
+</html>

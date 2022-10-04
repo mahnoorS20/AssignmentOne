@@ -1,0 +1,93 @@
+
+*{
+    background: #358559;
+    width: 0px;
+    height:0px;
+    background-image: linear-gradient(#D1847D,#7DD1A3,#FFB9B3 );
+}
+
+h1{
+    position:absolute; 
+    top:0px;
+    left:55%;
+    color:#FFB9B3;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100px; 
+}
+.boxOne { 
+    position:relative; 
+    width:100px; height:100px; 
+    border-radius:60px; 
+    padding:10px; 
+    margin-top: 90px;
+    left: 5%;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    text-align:center; 
+    animation:shape-shift 2s 4; /*changes to 5seconds or you can do it infinite*/
+    } 
+    .boxTwo { 
+        position:relative; 
+        width:100px; height:100px; 
+        border-radius:60px; 
+        padding:10px; 
+        margin-top: 90px;
+        left: 5%;
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+        text-align:center; 
+        animation:shape-shift 2s 4; /*changes to 5seconds or you can do it infinite*/
+        } 
+        .boxThree { 
+            position:relative; 
+            width:100px; height:100px; 
+            border-radius:60px; 
+            padding:10px; 
+            margin-top: 90px;
+            left: 5%;
+
+            font-family: "Times New Roman", Times, serif;
+            font-style: italic;
+            text-align:center; 
+            animation:shape-shift 2s 4; /*changes to 5seconds or you can do it infinite*/
+            } 
+            /*.boxFour { 
+                position:absolute; 
+                width:100px; height:100px; 
+                border-radius:60px; 
+                padding:10px; 
+                margin-top: 110px;
+                top:0px;
+                left: 710px;
+                
+                font-family: "Times New Roman", Times, serif;
+                font-style: italic; 
+                text-align:center; 
+                animation:shape-shift 2s 4; /*changes to 5seconds or you can do it infinite
+                } */
+                .boxFive { 
+                    position:absolute; 
+                    width:100px; height:100px; 
+                    border-radius:60px; 
+                    padding:10px; 
+                    margin-top: 100px;
+                    top:28%;
+                    left: 710px;
+                    font-family: "Times New Roman", Times, serif;
+                    font-style: italic;
+                    text-align:center; 
+                    animation:shape-shift 2s 4; /*changes to 5seconds or you can do it infinite*/
+                    } 
+                    .boxSix { 
+                        position:absolute; 
+                        width:100px; height:100px; 
+                        border-radius:60px; 
+                        padding:10px; 
+                        margin-top: 100px;
+                        top:56%;
+                        left: 710px;
+                        font-family: "Times New Roman", Times, serif;
+                        font-style: italic; 
+                        text-align:center; 
+                        animation:shape-shift 2s 4; /*changes to 5seconds or you can do it infinite*/
+                        } 
