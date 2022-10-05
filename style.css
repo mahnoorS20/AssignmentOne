@@ -1,25 +1,28 @@
 *{
     padding:0;
     margin:0;
+    background:#FFD4BF ;
 }
 .banner{
     width: 100%;
     height: 150px;
-    background-color: aquamarine;
+    background-color:#F79D6F ;
 }
 .header{
     width:1000px;
     height: 100%;
     margin: 0 auto;
-    background-color: black;
+    background-color:#784C36;
 }
 .logo{
     height:100%;
     float:right;
+    margin-right: 450px;
+
     display:table;
 }
 .logo h1{
-    color:blueviolet;
+    color:#7A726E;
     height:100%;
     display:table-cell;
     vertical-align: middle;
@@ -29,6 +32,7 @@
 }
 .four-pages{
     height:100%;float:left;
+    margin-left: 600px;
 }
 .four-pages li{
     margin-top:7%;
@@ -40,7 +44,7 @@
     height:100%;
     vertical-align: middle;
     display:table-cell;
-    color:lightcoral;
+    color:#C77E59;
     font-family: "Times New Roman", Times, serif;
     font-size: 15px;
 }

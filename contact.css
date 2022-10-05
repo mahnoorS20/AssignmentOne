@@ -1,5 +1,5 @@
 *{
-    background-image: linear-gradient(#D1847D,#7DD1A3,#FFB9B3 );
+    background-image: linear-gradient(#784C36,#F79D6F, #FFD4BF,#C77E59);
     margin: 0px;
     padding: 0px;
     max-width: 100%;
@@ -39,7 +39,7 @@ h1{
     margin-left:9%;
     font-family: "Times New Roman", Times, serif;
     font-size: 90px; 
-    color:#358559;
+    color:#784C36;
 
     /*margin-right: 100px;
     margin-block-start: 600px;
@@ -54,10 +54,10 @@ h1{
     margin:auto;
     margin-left:30%;
     margin-top:1%;
-    background: #358559;
+    background: #7A726E;
 }
 p{
-    background: #358559;
+    background: #7A726E;
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
     margin-left:15%;
@@ -65,4 +65,8 @@ p{
 }
 p:hover{
     opacity: none;
+}
+h2{
+    text-align: center;
+    
 }
